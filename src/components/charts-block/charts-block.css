@@ -1,0 +1,26 @@
+.charts-block {
+    grid-column: 4 / 5;
+    grid-row: 2/4;
+}
+
+.charts-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.charts-item {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+}
+
+.charts-list {
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    padding: 0;
+
+}

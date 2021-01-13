@@ -1,0 +1,5 @@
+.app {
+    display: grid;
+    grid-template: auto auto 1fr / minmax(5%,auto) minmax(auto,350px) repeat(2, 1fr) minmax(5%,auto);
+    grid-gap: 1vw;
+}

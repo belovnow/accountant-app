@@ -1,0 +1,30 @@
+.header {
+    grid-column: 1 / 6;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #C4C4C4 1px;
+    padding: 10px;
+}
+
+.header-logo {
+    font-weight: 900;
+    font-size: 1.5rem;
+    background: linear-gradient(270deg, #56CCF2 0%, #2F80ED 0.01%, #56CCF2 100.03%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
+
+.header button {
+        background-color: white;
+        border: none;
+        padding: 5px 5px;
+        color: #828282;
+        text-align: center;
+}
+
+.header button:hover {
+    background-color: #F2F2F2;
+    color: #828282;
+    text-align: center;
+    border-radius: 5px;
+}

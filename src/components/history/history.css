@@ -1,0 +1,25 @@
+.history-block {
+    grid-column: 3 / 4;
+    grid-row: 2/4;
+}
+
+.history-item {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+}
+
+.history-list {
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    padding: 0;
+
+}
+
+.history-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
